@@ -1,6 +1,13 @@
 ## Changed
-* Centrifuges and refineries now use analog circuits
+* Removed most legacy boilers
+  * Electric boilers have been completely removed
+  * Fired boilers no longer have an on-state, GUI or functionality
+  * Fired boilers still sometimes spawn in certain structures as loot, they drop 3-6 steel scraps containing 1 ingot worth of steel each
+* The rare earth chunk texture is now consistent with the bedrock ores
+* Removed the unused watz control elements
 
 ## Fixed
-* Fixed hopper IO ignoring the stack limit on arc furnaces under certain circumstances
-* Fixed the watz powerplant not dropping as many HSS bolts as it should
+* Fixed automatic crafting table filters being broken
+* Fixed missing localization for black lung death messages
+* Fixed disconnect caused by using a filter on the autocrafter's template output slot
+* Fixed sentry turret "Brown" being uncraftable
